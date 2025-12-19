@@ -5,7 +5,7 @@ const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
  * Returns featured products from static data for consistency
  */
 export const getFeaturedProducts = async () => {
-  // Return consistent static data to ensure featured products don't change based on login state
+  // Return consistent static data to ensure featured products don&apos;t change based on login state
   return getFallbackFeaturedProducts();
 };
 

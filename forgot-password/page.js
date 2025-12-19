@@ -270,7 +270,7 @@ export default function ForgotPassword() {
                       </div>
                       <div className="flex-grow-1 ms-3">
                         <small>
-                          <strong>Note:</strong> If you don't see the email in your inbox, 
+                          <strong>Note:</strong> If you don&apos;t see the email in your inbox, 
                           please check your spam or junk folder.
                         </small>
                       </div>

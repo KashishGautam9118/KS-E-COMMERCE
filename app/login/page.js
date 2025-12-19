@@ -405,7 +405,7 @@ export default function Login() {
               {/* Register Link */}
               <div className="text-center pt-3 border-top">
                 <p className="mb-0" style={{ fontSize: '0.95rem', color: '#6b7280' }}>
-                  Don&apos;t have an account?{' '}
+                  don&apos;t have an account?{' '}
                   <Link
                     href="/signup"
                     style={{

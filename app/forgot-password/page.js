@@ -105,7 +105,7 @@ export default function ForgotPassword() {
               Reset Your Password
             </h4>
             <p className="mb-0 opacity-75 mt-2" style={{ fontSize: '0.9rem' }}>
-              We&apos;ll help you get back into your account
+              We'll help you get back into your account
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function ForgotPassword() {
                 
                 <h5 className="text-success mb-3">Email Sent Successfully!</h5>
                 <p className="text-muted mb-4">
-                  We&apos;ve sent password reset instructions to:<br />
+                  We've sent password reset instructions to:<br />
                   <strong>{email}</strong>
                 </p>
                 <p className="text-muted small mb-4">
@@ -144,7 +144,7 @@ export default function ForgotPassword() {
                   </button>
                   
                   <p className="text-muted small mb-0">
-                    Didn&apos;t receive the email?{' '}
+                    Didn't receive the email?{' '}
                     <button
                       onClick={() => {
                         setEmailSent(false);
@@ -161,7 +161,7 @@ export default function ForgotPassword() {
             ) : (
               <>
                 <p className="text-muted text-center mb-4">
-                  Enter the email address associated with your account and we&apos;ll send you a link to reset your password.
+                  Enter the email address associated with your account and we'll send you a link to reset your password.
                 </p>
                 
                 <form onSubmit={handleSubmit}>
@@ -248,7 +248,7 @@ export default function ForgotPassword() {
                       </div>
                       <div className="flex-grow-1 ms-3">
                         <small>
-                          <strong>Note:</strong> If you don't see the email in your inbox, 
+                          <strong>Note:</strong> If you don&apos;t see the email in your inbox, 
                           please check your spam or junk folder.
                         </small>
                       </div>
