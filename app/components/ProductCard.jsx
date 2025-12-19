@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import styles from './ProductCard.module.css';
-import CartModal from './CartModal';
+import CartModal from './cartmodal';
 export default function ProductCard({ product, addToCart }) {
   const [showModal, setShowModal] = useState(false);
 

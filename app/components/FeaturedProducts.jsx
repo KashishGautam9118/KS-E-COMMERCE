@@ -1,8 +1,8 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { getFeaturedProducts } from '../services/productService';
-import ProductCard from './ProductCard';
-import CartToast from './CartToast';
+import ProductCard from './productcard';
+import CartToast from './carttoast';
 import { useCart } from '../context/CartContext';
 
 export default function FeaturedProducts() {

@@ -1,11 +1,20 @@
-# Mock Registration and Local Storage Login Implementation
+# TODO: Standardize Component File Names to Lowercase
 
-## Tasks
-- [x] Modify AuthContext to use localStorage for mock registration and login
-- [x] Update register function to store user data locally
-- [x] Update login function to verify against localStorage
-- [x] Update checkUser to retrieve from localStorage
-- [x] Update logout to clear user data from localStorage
-- [ ] Test registration flow
-- [ ] Test login flow
-- [ ] Verify data persistence in localStorage
+## Files to Rename
+- [ ] CartModal.jsx -> cartmodal.jsx
+- [ ] CartToast.jsx -> carttoast.jsx
+- [ ] Categories.css -> categories.css
+- [ ] Categories.jsx -> categories.jsx
+- [ ] FeaturedProducts.jsx -> featuredproducts.jsx
+- [ ] Header.jsx -> header.jsx
+- [ ] HeroSection.jsx -> herosection.jsx
+- [ ] ProductCard.jsx -> productcard.jsx
+- [ ] ProductCard.module.css -> productcard.module.css
+
+## Import Updates
+- [ ] Update imports in app/page.js
+- [ ] Update imports in app/components/FeaturedProducts.jsx
+- [ ] Check and update any other files that import these components
+
+## Verification
+- [ ] Test that the application still works after changes
