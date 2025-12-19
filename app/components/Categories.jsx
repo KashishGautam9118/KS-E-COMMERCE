@@ -2,7 +2,7 @@
 'use client';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import './Categories.css'; // Or your CSS file
+import './categories.css'; // Or your CSS file
 
 export default function Categories() {
   const router = useRouter();
