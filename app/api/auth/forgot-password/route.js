@@ -31,7 +31,7 @@ export async function POST(request) {
     const user = await User.findOne({ email });
     
     if (!user) {
-      // For security, don't reveal if user exists
+      // For security, don&apos;t reveal if user exists
       return NextResponse.json({
         success: true,
         message: 'If an account exists with this email, you will receive a password reset link.'
