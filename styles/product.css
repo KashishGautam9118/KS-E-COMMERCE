@@ -1,0 +1,107 @@
+/* style/FeaturedProducts.css */
+
+.featured-section {
+  margin-bottom: 3rem;
+}
+
+.featured-section h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.featured-card {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+  border: 0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  height: 100%;
+}
+
+.featured-card-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  border-radius: 15px 15px 0 0;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.featured-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.featured-card-img img:hover {
+  transform: scale(1.05);
+}
+
+.featured-card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent 80%, rgba(0,0,0,0.1) 100%);
+}
+
+.featured-card-body {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.featured-card-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+  font-size: 1.1rem;
+}
+
+.featured-card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.price-stock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.price-stock .price {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.price-stock .badge {
+  font-size: 0.8rem;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #3498db;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  transform: scale(1.05);
+}

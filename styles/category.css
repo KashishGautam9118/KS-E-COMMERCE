@@ -1,0 +1,32 @@
+/* Categories.css */
+
+.categories-title {
+  font-size: 2.5rem;
+}
+
+.category-card {
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-height: 200px;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.category-img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.category-icon {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.category-title {
+  color: #2c3e50;
+  font-size: 1.2rem;
+}
