@@ -1,8 +1,8 @@
 'use client';
-import Header from './components/header';
-import HeroSection from './components/herosection';
-import FeaturedProducts from './components/featuredproducts';
-import Categories from './components/categories';
+import Header from './components/Header';
+import HeroSection from './components/Herosection';
+import FeaturedProducts from './components/FeaturedProducts';
+import Categories from './components/Categories';
 import Footer from './components/footer';
 
 export default function HomePage() {

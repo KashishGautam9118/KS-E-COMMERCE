@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { getFeaturedProducts } from '../services/productService';
-import ProductCard from './productcard';
+import ProductCard from './ProductCard';
 import CartToast from './carttoast';
 import { useCart } from '../context/CartContext';
 
