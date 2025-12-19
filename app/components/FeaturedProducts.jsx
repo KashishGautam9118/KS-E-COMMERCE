@@ -2,7 +2,7 @@
 import { useEffect, useState } from 'react';
 import { getFeaturedProducts } from '../services/productService';
 import ProductCard from './ProductCard';
-import CartToast from './carttoast';
+import CartToast from './CartToast';
 import { useCart } from '../context/CartContext';
 
 export default function FeaturedProducts() {

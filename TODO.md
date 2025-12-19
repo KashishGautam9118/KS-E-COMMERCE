@@ -2,7 +2,7 @@
 
 ## Files to Rename
 - [ ] CartModal.jsx -> cartmodal.jsx
-- [ ] CartToast.jsx -> carttoast.jsx
+- [ ] CartToast.jsx -> CartToast.jsx
 - [ ] Categories.css -> categories.css
 - [ ] Categories.jsx -> categories.jsx
 - [ ] FeaturedProducts.jsx -> featuredproducts.jsx
