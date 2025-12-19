@@ -668,9 +668,9 @@ export default function SignUp() {
               <div className="text-center pt-3 border-top">
                 <p className="mb-0" style={{ fontSize: '0.95rem', color: '#6b7280' }}>
                   Already have an account?{' '}
-                  <Link 
-                    href="/login" 
-                    style={{ 
+                  <Link
+                    href="/login"
+                    style={{
                       color: '#5C2CA2',
                       fontWeight: 600,
                       textDecoration: 'none'
